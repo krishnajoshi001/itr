@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google form</title>
+    <!-- linking css -->
+     <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form method="get">
+       <fieldset>
+        <legend>User details</legend>
+        please entre your name: 
+        <input type="text" name="usermane" autofocus>
+        <br><br>
+        <label for="address">please entre your address:</label>
+        <textarea name="enter" id="address"></textarea>
+        <br><br>
+        <label for="password">please entre your password</label>
+        <input type="password" id="password" >
+        <BR></BR>
+        <label for="password">confirm password</label>
+        <input type="password" id="pass">
+        <br><br>
+        <label for="age">entre your age</label>
+        <input type="number" min="0">
+        <br><br>
+        select gendre:
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender">
+        <br>
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender">
+        <br><br>
+        <a href="index.html" ><input type="submit"></a>
+       </fieldset>
+    </form>
+    <script src="./form.js"></script>
+</body>
+</html>
